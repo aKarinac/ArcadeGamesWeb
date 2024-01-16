@@ -1,0 +1,61 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(/80316.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-image: url(/SI_header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 220px;
+    margin-bottom: 40px;
+}
+
+.footer{
+    background-image: url(/SI_footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 55px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+.grid{
+    width: 500px;
+    height: 500px;
+    border: solid rgb(82, 16, 95) 3px;
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 465px;
+    background-image: url(/space-invaders-extreme-1.png);
+    background-size: contain;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.invader{
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.shooter{
+    background-color: rgb(220, 20, 187);
+}
+
+.laser{
+    background-color: green;
+}
+
+.boom{
+    background-color: darkred;
+}
+
+.results{
+    text-align: center;
+    color:goldenrod;
+}

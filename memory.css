@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(/MG_bkgr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 300px;
+    margin-left: 510px;
+  }
+
+.h1{
+    margin-left: 510px;
+}
+
+.header{
+    background-image: url(/MG_header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 220px;
+    margin-bottom: 45px;
+}
+
+.footer{
+    background-image: url(/MG_footer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}

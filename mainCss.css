@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  html body{
+  margin: 0;
+  background-image: url("/mainP.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+  
+  .header {
+      background-image: url('15457.jpg');
+      width: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-bottom: 300px;
+      padding-top: 90px ;
+      background-position: 100%;
+      
+    }
+
+ .h{
+     text-align: center;
+     color: rgb(117, 100, 190);
+     font-size: 40px;
+     font-family: 'TTVTechPrecomput', sans-serif;
+     
+ }
+
+ .buttons{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Games', sans-serif;
+ }
+
+ .buttons li {
+    display: inline;
+    
+  }
+  
+  .buttons a{
+    display: inline-block;
+    padding: 15px;
+    color: rgb(243, 23, 195);
+    text-decoration: none;
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+
+  .buttons a:hover{
+    background-color: rgba(223, 12, 223, 0.2);
+  
+  }
+
+  .footer{
+     margin-top: 300px;
+     padding-top: 10px;
+     padding-bottom: 10px ;
+     text-align: center;
+     background-color: rgb(33, 33, 92, 0.6);
+  }
+
+  .footer h1{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'TTVTechPrecomput', sans-serif;
+  }
+
+  .footer h2{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+    font-family: 'TTVTechPrecomput', sans-serif;
+  }

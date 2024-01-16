@@ -1,0 +1,29 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-image: url(/4434748.jpg);
+    background-size: cover;
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.header{
+    background-image: url(/SNK_header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 220px;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
+}
+
+
+.footer{
+    background-image: url(/snk_footer_40.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*margin-top: 55px;
+    padding-top: 10px;
+    padding-bottom: 200px;*/
+}
+
