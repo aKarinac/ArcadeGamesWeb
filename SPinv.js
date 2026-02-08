@@ -53,6 +53,11 @@ function moveShoot(e){
     sqrs[indxShooter].classList.add('shooter')
 }
 
+window.addEventListener("keydown", function(e) {
+    if(["ArrowUp","ArrowDown","ArrowLeft","ArrowRight","Space"].includes(e.code)) {
+        e.preventDefault();
+    }
+}, false);
 document.addEventListener('keydown', moveShoot)
 
 function moveInvds(){
@@ -131,5 +136,6 @@ function shoot(e) {
             laserID=setInterval(moveLaser, 100)
     }
 }
+
 
 document.addEventListener('keydown', shoot)
